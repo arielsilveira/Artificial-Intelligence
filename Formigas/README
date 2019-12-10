@@ -1,0 +1,8 @@
+Trabalho de IAR que realiza o agrupamento de formigas
+
+Branco - Espaço Vazio
+Preto - Itens
+Vermelho - Formigas carregando
+Verde - Formigas livres
+
+Interface gráfica: SFML
