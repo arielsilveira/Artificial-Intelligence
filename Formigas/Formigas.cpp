@@ -226,12 +226,12 @@ int main(int argc, char const *argv[]){
 		int x = rand() % tam_matriz;
 		int y = rand() % tam_matriz;
 
-    	while(mapa[x][y] != 0){
-    		x = rand() % tam_matriz;
-    		y = rand() % tam_matriz;
-    	}
+		while(mapa[x][y] != 0){
+			x = rand() % tam_matriz;
+			y = rand() % tam_matriz;
+		}
 
-    	mapa[x][y] = -1;
+		mapa[x][y] = -1;
 	}
 
 	for (int i = 0; i < vivas; ++i){
